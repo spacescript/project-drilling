@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #36669d;
+    background-image: linear-gradient(315deg, #36669d 0%, #d3d3d3 74%);
+    font-family: 'Kufam', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.search {
+    height: 50px;
+    position: relative;
+}
