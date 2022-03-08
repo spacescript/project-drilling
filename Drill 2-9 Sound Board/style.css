@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(103, 153, 122);
+    font-family: 'Kufam', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.btn {
+    background-color: cadetblue;
+    border-radius: 5px;
+    border: 2px outset rgb(103, 119, 153);
+    color: #fff;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn:focus {
+    outline: none;
+}
